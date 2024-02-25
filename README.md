@@ -16,13 +16,13 @@ The dataset includes CT slices of non-cancerous chest tissue and three types of 
 
 ### Methods
 
-1. **Classification Performance Comparison -** In this part, we assessed how well four algorithms can distinguish between healthy healthy and unhealthy patients with a form of pulmonary cancer.  The algorithms we used for this task are VGG16, 2D CNN, ResNet50, and DenseNet201.
+1. **Classification Performance Comparison -** In this part, we assessed how well four algorithms can distinguish between healthy and unhealthy patients with a form of pulmonary cancer.  The algorithms we used for this task are VGG16, 2D CNN, ResNet50, and DenseNet201.
 2. **Performance Comparison on Augmented Data -** In this part, we checked model's performance on augmented data. The data was augmented by cropping the images by 25 pixels, flipping 50% of all training images vertically, and applying a Gaussian blur to the images.
-3. **Performance Comparison on modified images -** To check the robustness of models - VGG16 and ResNet50 we decide to see performance gradient for classification of images by making changes to the contrast of images, introducing gaussian noise into the images and undersampling images using different strides.
+3. **Performance Comparison on modified images -** To check the robustness of models - VGG16 and ResNet50 we decide to see performance gradient for classification of images by making changes to the contrast of images, introducing gaussian noise into the images and under sampling images using different strides.
 
    <img width="342" alt="Screenshot 2024-02-19 at 8 59 01 PM" src="https://github.com/shreyashukla01/Lung-Cancer-Detection/assets/30028998/af4d6e3b-6c27-4f4b-8193-d71b168c4677">  <img width="342" alt="Screenshot 2024-02-19 at 8 58 35 PM" src="https://github.com/shreyashukla01/Lung-Cancer-Detection/assets/30028998/084df374-8fde-48ec-bb36-45ae4a668f8a"> 
 
-4. **LIME Explainability for cancel location detection -** We explored LIME technique to identify regions within the images that contributed to positive predictions indicating cancerous labels.
+4. **LIME Explainability for cancer location detection -** We explored LIME technique to identify regions within the images that contributed to positive predictions indicating cancerous labels.
 
    <img width="342" alt="Screenshot 2024-02-19 at 9 01 54 PM" src="https://github.com/shreyashukla01/Lung-Cancer-Detection/assets/30028998/74a3a644-0c1b-433e-89f9-217e269560a7">
 
